@@ -1,0 +1,19 @@
+Pertemuan 5 - Local vs Hosting
+
+01 Local: PASS - Website KursusKu dapat dijalankan melalui localhost.
+02 Hosting: PASS - Website dapat diakses melalui alamat hosting.
+03 Index: PASS - index.php tampil dengan benar pada local dan hosting.
+04 CSS: PASS - style.css berhasil dimuat pada local dan hosting.
+05 Image: PASS - image1.png tampil dengan benar pada local dan hosting.
+06 PHP: PASS - kode PHP dapat diproses tanpa error.
+07 Data Kursus: PASS - data katalog kursus tampil pada local dan hosting.
+08 Rupiah: PASS - format biaya kursus tampil dengan benar.
+09 Status: PASS - status Tersedia/Penuh tampil sesuai data.
+10 Navigation: PASS - menu Beranda, Katalog, dan Daftar Kursus dapat digunakan.
+11 Registration: PASS - halaman registration.php dapat diakses.
+12 Calculator: PASS - halaman fee-calculator.php dapat diakses.
+13 Video: PASS - video YouTube dapat ditampilkan.
+14 Responsive: PASS - tampilan menyesuaikan ukuran layar.
+15 Theme: PASS - tema warna ungu terang tampil pada halaman.
+16 Footer: PASS - nama KursusKu dan tahun tampil dengan benar.
+17 Result: PASS - tampilan local dan hosting berjalan sesuai rancangan.

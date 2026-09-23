@@ -1,0 +1,19 @@
+Pertemuan 5 - Test Matrix
+
+01 Load form: PASS - index.php tampil tanpa error.
+02 Navigasi: PASS - Beranda, Katalog, dan Daftar Kursus dapat diakses.
+03 Hero: PASS - judul, tagline, deskripsi, dan tombol tampil.
+04 Gambar: PASS - image1.png tampil pada halaman utama.
+05 Katalog: PASS - data kursus tampil dalam tabel.
+06 Biaya: PASS - biaya kursus ditampilkan dalam format Rupiah.
+07 Tanggal: PASS - tanggal mulai kursus ditampilkan sesuai format.
+08 Sisa kursi: PASS - sisa kursi dihitung dari kuota dikurangi peserta terdaftar.
+09 Status: PASS - status Tersedia/Penuh tampil sesuai kondisi kuota.
+10 Program: PASS - HTML & CSS, PHP, dan Laravel tampil pada kartu kursus.
+11 Laravel: PASS - link Pelajari Laravel membuka halaman Laravel.
+12 Video: PASS - video pembelajaran YouTube tampil pada halaman.
+13 Estimasi: PASS - tombol Lihat Estimasi Biaya menuju fee-calculator.php.
+14 Pendaftaran: PASS - tombol Daftar Kursus menuju registration.php.
+15 Footer: PASS - tahun dan nama KursusKu tampil pada footer.
+16 Mobile: PASS - tampilan menyesuaikan layar mobile.
+17 CSS: PASS - tema warna ungu terang diterapkan pada halaman.
