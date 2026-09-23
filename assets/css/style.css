@@ -1,12 +1,10 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  color: #2d174d;
-  background: #faf7ff;
+  color: #16332c;
+  background: #f5f7f6;
 }
 
 .container {
@@ -15,27 +13,18 @@ body {
   padding: 0 20px;
 }
 
-/* ===== HEADER ===== */
 .header {
-  background: #8b2be2;
+  background: #0f766e;
   color: white;
   padding: 32px 0;
   text-align: center;
 }
 
-.header h1 {
-  margin: 0;
-  font-size: 32px;
-}
+.header h1 { margin: 0; font-size: 32px; }
+.header p { margin: 8px 0 0; opacity: 0.9; }
 
-.header p {
-  margin: 8px 0 0;
-  opacity: 0.9;
-}
-
-/* ===== NAVBAR ===== */
 .navbar {
-  background: #6a1bb1;
+  background: #115e56;
   padding: 12px 0;
 }
 
@@ -46,11 +35,8 @@ body {
   font-weight: 600;
 }
 
-.navbar a:hover {
-  text-decoration: underline;
-}
+.navbar a:hover { text-decoration: underline; }
 
-/* ===== SECTION ===== */
 .section {
   padding: 48px 0;
 }
@@ -59,7 +45,6 @@ body {
   background: white;
 }
 
-/* ===== HERO ===== */
 .hero {
   background: white;
   padding: 48px 0;
@@ -77,10 +62,9 @@ body {
   border-radius: 12px;
 }
 
-/* ===== BUTTON ===== */
 .button {
   display: inline-block;
-  background: #8b2be2;
+  background: #0f766e;
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
@@ -89,11 +73,8 @@ body {
   margin-top: 12px;
 }
 
-.button:hover {
-  background: #6a1bb1;
-}
+.button:hover { background: #115e56; }
 
-/* ===== COURSE ===== */
 .course-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -103,32 +84,31 @@ body {
 
 .course-card {
   background: white;
-  border: 1px solid #e4d5f5;
+  border: 1px solid #e0e5e3;
   border-radius: 12px;
   padding: 20px;
 }
 
-.course-card h3 {
-  margin-top: 0;
-  color: #8b2be2;
-}
+.course-card h3 { margin-top: 0; color: #0f766e; }
 
-/* ===== VIDEO ===== */
 .video-placeholder {
   text-align: center;
   margin-top: 20px;
 }
 
-/* ===== FOOTER ===== */
 .footer {
-  background: #8b2be2;
+  background: #0f766e;
   color: white;
   padding: 24px 0;
   text-align: center;
   margin-top: 40px;
 }
 
-/* ===== TABEL KATALOG ===== */
+@media (max-width: 700px) {
+  .hero-content { grid-template-columns: 1fr; }
+}
+
+/* ===== CSS UNTUK TABEL KATALOG ===== */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -136,22 +116,20 @@ table {
   background: white;
 }
 
-th,
-td {
+th, td {
   border: 1px solid #ddd;
   padding: 10px;
   text-align: left;
 }
 
 th {
-  background: #8b2be2;
+  background: #0f766e;
   color: white;
   font-weight: 600;
 }
 
-/* ===== BADGE STATUS ===== */
-.badge-available,
-.badge-full {
+/* ===== CSS UNTUK BADGE STATUS ===== */
+.badge-available, .badge-full {
   display: inline-block;
   padding: 4px 8px;
   border-radius: 999px;
@@ -160,8 +138,8 @@ th {
 }
 
 .badge-available {
-  background: #f0ddff;
-  color: #7a20c7;
+  background: #e7f8ef;
+  color: #146c43;
 }
 
 .badge-full {
@@ -171,16 +149,15 @@ th {
 
 /* ===== CSS GLOBAL KURSUSKU ===== */
 :root {
-  --brand: #8b2be2;
-  --brand-dark: #6a1bb1;
+  --brand: #0f766e;
+  --brand-dark: #0b5f55;
   --surface: #ffffff;
-  --soft: #f5eaff;
-  --text: #2d174d;
-  --muted: #756582;
-  --line: #e4d5f5;
+  --soft: #eef8f5;
+  --text: #14231f;
+  --muted: #60756e;
+  --line: #d9e6e2;
 }
 
-/* ===== SITE HEADER ===== */
 .site-header {
   background: var(--surface);
   border-bottom: 1px solid var(--line);
@@ -206,7 +183,6 @@ nav {
   color: var(--brand-dark);
 }
 
-/* ===== PAGE INTRO ===== */
 .page-intro {
   max-width: 720px;
   margin: 2.5rem auto 1.25rem;
@@ -219,9 +195,8 @@ nav {
   letter-spacing: .05em;
 }
 
-/* ===== FORM ===== */
-.form-card,
-.summary-card {
+/* ===== CSS FORM ===== */
+.form-card, .summary-card {
   max-width: 760px;
   margin: 0 auto 2rem;
   padding: 1.5rem;
@@ -236,23 +211,15 @@ nav {
   gap: 1rem;
 }
 
-.form-group {
-  margin-bottom: 1rem;
-}
+.form-group { margin-bottom: 1rem; }
 
-label,
-legend {
+label, legend {
   display: block;
   font-weight: 700;
   margin-bottom: .35rem;
 }
 
-input,
-select,
-textarea,
-button {
-  font: inherit;
-}
+input, select, textarea, button { font: inherit; }
 
 input[type="text"],
 input[type="email"],
@@ -261,16 +228,13 @@ select,
 textarea {
   width: 100%;
   padding: .8rem .9rem;
-  border: 1px solid #cdb7e3;
+  border: 1px solid #b8ccc6;
   border-radius: .65rem;
   background: #fff;
 }
 
-/* ===== INPUT FOCUS ===== */
-input:focus,
-select:focus,
-textarea:focus {
-  outline: 3px solid rgba(139, 43, 226, .18);
+input:focus, select:focus, textarea:focus {
+  outline: 3px solid rgba(15, 118, 110, .18);
   border-color: var(--brand);
 }
 
@@ -282,13 +246,9 @@ textarea:focus {
   font-weight: 400;
 }
 
-.help {
-  color: var(--muted);
-}
+.help { color: var(--muted); }
 
-/* ===== BUTTON FORM ===== */
-.btn-primary,
-.btn-link {
+.btn-primary, .btn-link {
   display: inline-block;
   border: 0;
   border-radius: .7rem;
@@ -299,62 +259,28 @@ textarea:focus {
   cursor: pointer;
 }
 
-.btn-primary:hover,
-.btn-link:hover {
-  background: var(--brand-dark);
-}
-
-/* ===== ALERT ===== */
 .alert-success {
   max-width: 760px;
   margin: 2rem auto 1rem;
   padding: 1.2rem;
-  background: #f1e4ff;
-  border-left: 4px solid #8b2be2;
+  background: #eaf8f1;
+  border-left: 4px solid #17824f;
 }
 
-/* ===== SUMMARY ===== */
 .summary-list {
   display: grid;
   grid-template-columns: 150px 1fr;
   gap: .65rem 1rem;
 }
 
-.summary-list dt {
-  font-weight: 700;
-}
-
-.summary-list dd {
-  margin: 0;
-}
+.summary-list dt { font-weight: 700; }
+.summary-list dd { margin: 0; }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 700px) {
-  .hero-content {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 640px) {
-  .nav-wrap {
-    align-items: flex-start;
-    padding-block: .8rem;
-  }
-
-  nav {
-    gap: .65rem;
-  }
-
-  .form-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .form-card,
-  .summary-card {
-    padding: 1rem;
-  }
-
-  .summary-list {
-    grid-template-columns: 1fr;
-  }
+  .nav-wrap { align-items: flex-start; padding-block: .8rem; }
+  nav { gap: .65rem; }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-card, .summary-card { padding: 1rem; }
+  .summary-list { grid-template-columns: 1fr; }
 }

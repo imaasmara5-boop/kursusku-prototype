@@ -50,7 +50,6 @@ $tahun = date("Y");
 
   </header>
 
-  
   <nav class="navbar">
   <div class="container">
     <a href="index.php">Beranda</a>
