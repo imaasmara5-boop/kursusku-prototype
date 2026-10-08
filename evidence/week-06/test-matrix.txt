@@ -1,0 +1,13 @@
+Pertemuan 6 - Test Matrix
+01 Umum + Mobile App + 1 paket (irsyad) => Rp 240.000 : PASS
+02 Mahasiswa + Web Dasar + 1 paket (ima) => Rp 240.000 : PASS
+03 Umum + Web Dasar + 1 paket (sella) => Rp 240.000 : PASS
+04 Guru + Web Lanjut + 3 paket (evagustin) => Rp 720.000 : PASS
+05 Nama kosong => pesan nama wajib diisi : PASS
+06 Email tidak valid => pesan email tidak valid : PASS
+07 Tidak memilih minat => Belum memilih minat, tanpa warning : PASS
+08 Pilih 1 minat (Database) => minat tampil : PASS
+09 Metode Tatap Muka => Tatap Muka : PASS
+10 Metode Hybrid => Hybrid : PASS
+11 Buka process.php via GET => redirect ke registration.php : PASS
+12 Tambah fasilitas => item dirender otomatis via foreach : PASS
